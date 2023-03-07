@@ -18,6 +18,6 @@
 
 .box .ヘア2 {
   /* 右下に固定 */
-  bottom: 0;
+  bottom: -40px;
   right: 0;
 }
