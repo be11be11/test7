@@ -1,0 +1,23 @@
+.box {
+  width: 500px;       /* 適当な幅を指定 */
+  height: 300px;      /* 適当な高さを指定 */
+  position: relative; /* 基準位置とする */
+}
+
+/* 共通するCSS */
+.box img {
+  width: 300px;       /* 適当な幅を指定 */
+  position: absolute; /* 相対位置に指定 */
+}
+
+.box .ヘア1 {
+  /* 左上に固定 */
+  top: 0;
+  left: 0;
+}
+
+.box .ヘア2 {
+  /* 右下に固定 */
+  bottom: 0;
+  right: 0;
+}
