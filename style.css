@@ -1,12 +1,15 @@
+@charset "UTF-8";
+
+@media screen and (min-width:10px) and (max-width:900px){
 .box {
-  width: 500px;       /* 適当な幅を指定 */
-  height: 300px;      /* 適当な高さを指定 */
+  width: 100%;       /* 適当な幅を指定 */
+  height: 750px;       /* 適当な高さを指定 */
   position: relative; /* 基準位置とする */
 }
 
 /* 共通するCSS */
 .box img {
-  width: 300px;       /* 適当な幅を指定 */
+  width: 100%;       /* 適当な幅を指定 */
   position: absolute; /* 相対位置に指定 */
 }
 
@@ -20,4 +23,33 @@
   /* 右下に固定 */
   bottom: -500px;
   right: 0;
+}
+
+}
+
+@media screen and (min-width:900px) and (max-width:2000px){
+  .box {
+  width: 100%;       /* 適当な幅を指定 */
+  height: 850px;       /* 適当な高さを指定 */
+  position: relative; /* 基準位置とする */
+}
+
+/* 共通するCSS */
+.box img {
+  width: 100%;       /* 適当な幅を指定 */
+  position: absolute; /* 相対位置に指定 */
+}
+
+.box .ヘア1 {
+  /* 左上に固定 */
+  top: 0;
+  left: 0;
+}
+
+.box .ヘア2 {
+  /* 右下に固定 */
+  bottom: -500px;
+  right: 0;
+}
+
 }
